@@ -22,7 +22,7 @@
 </head>
 <body class="font-lato">
     
-<header>
+
 <!-- navbar section -->
 <nav class="container mx-auto mt-10">
     <!-- navbar bg-[#F85559] rounded-full py-4 -->
@@ -62,9 +62,11 @@
 
     </div>
 </nav>
-</header> 
-<main>
+
+
 <!-- Hero section  -->
+<header class="container mx-auto mt-20" style="overflow-x: hidden;>
+
 <section class="mt-16">
     
       <div class="carousel w-full">
@@ -132,162 +134,289 @@
             <a href="#slide1" class="btn btn-circle">❯</a>
           </div>
         </div>
-      </div>
-
-    
+    </div>   
 </section>
-<!-- middle section -->
-<main class="container mx-auto ">
+
+</header> 
+<!-- 2nd page section -->
+<main class="container mx-auto " >
     <!-- time section  -->
     <Section class="mt-10">
         <div class="flex flex-col lg:justify-between lg:flex-row">
             <div class="space-y-1">
                 <h2 class=" text-center lg:text-start text-[48px] font-extrabold">Deal of the day</h2>
-                <p class=" text-[12px] lg:text-[16px] text-center lg:text-start  text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p class=" text-[16px] lg:text-[20px] text-center lg:text-start  text-[#12121299]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="px-20 py-5 md:px-64 lg:px-0 lg:py-0">
-                <div class="grid grid-flow-col gap-5 auto-cols-max">
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:15;"></span>
-                      </span>
-                      days
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:10;"></span>
-                      </span>
-                      hours
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:24;"></span>
-                      </span>
-                      min
-                    </div> 
-                    <div class="flex flex-col">
-                      <span class="countdown font-mono text-5xl">
-                        <span style="--value:56;"></span>
-                      </span>
-                      sec
-                    </div>
+            <div class="px-6 py-5 md:px-44 lg:px-0 lg:py-0">
+              <div class="grid grid-flow-col gap-5 auto-cols-max">
+                  <div class="flex flex-col">
+                    <span class="countdown font-extrabold text-5xl">
+                      <span style="--value:29;"></span>
+                    </span>
+                   <span class="px-2 text-lg">Days</span>
+                  </div> 
+                  <h1 class="text-4xl">:</h1>
+                  <div class="flex flex-col">
+                    <span class="countdown font-extrabold text-5xl">
+                      <span style="--value:15;"></span>
+                    </span>
+                    <span class="px-1 text-lg">Hours</span>
+                  </div> 
+                  <h1 class="text-4xl">:</h1>
+                  <div class="flex flex-col">
+                    <span class="countdown font-extrabold text-5xl">
+                      <span style="--value:25;"></span>
+                    </span>
+                    <span class="-px-3 text-lg">Minutes</span>
+                  </div> 
+                  <h1 class="text-4xl">:</h1>
+                  <div class="flex flex-col">
+                    <span class="countdown font-extrabold text-5xl">
+                      <span style="--value:08;"></span>
+                    </span>
+                    <span class="-px-3 text-lg">Seconds</span>
                   </div>
-            </div>
+                </div>
+          </div>
         </div>
     </Section>
     <!-- card section  -->
-    <section >
-   <div>
-    <div class=" gap-7 justify-center mt-12  grid grid-cols-1 lg:grid-cols-4   ">
-      <div class="card  bg-white border-2 border-[#1212121a] min-h-[48vh] px-6 items-center">
-      <figure class="px-10 pt-10">
-        <img src="./images/fruit1.png" alt="Shoes" class="rounded-xl" />
-      </figure>
-      <div class="card-body items-center text-center">
-        <h2 class="card-title text-xl">12.90$ - 18.85$</h2>
-        <p class="mt-8 font-medium text-base">Graps</p>
-        
-      </div>
-      <div class=" mb-12">
+ <section>
+   <div class="grid lg:grid-cols-4 gap-5 mt-14">
+      <!-- card 1 -->
+          <div class="card  bg-white border-2 border-[#1212121a] rounded-lg min-h-[52vh]">
+              <figure class="px-10 pt-10">
+                <img src="images/fruit1.png" alt="Shoes" class="rounded-xl w-30 h-40" />
+              </figure>
+              <div class="card-body items-center text-center">
+                  <h2 class="card-title text-dark-01 font-bold text-2xl">12.90$ - 18.85$</h2>
+                  <hr class="hr">
+                  <div class="pt-3 space-y-6">
+                      <p class="text-[#121212] text-[16px] opacity-70 font-semibold">Graps</p>
+                      <div class="rating">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                              <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                              <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                              <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                              <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                              <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                              <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                            </svg>
+                      </div>
+                      <!-- modal -->
+                     <div>
+                      <h1 class="text-[#ff4346] font-bold text-[18px] cursor-pointer" onclick="my_modal_5.showModal()">Details</h1>
+      <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <form method="dialog" class="modal-box ">
+       <div class="flex flex-col justify-center">
+        <div class="pl-[120px] pb-5"><img class="w-[60%] h-[50%]" src="images/fruit1.png" alt=""></div>
+        <h3 class="font-bold text-[40px] font-semibold">Graps</h3>
+        <p class="py-4 text-[#12121299] text-[16px]">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+       </div>
+       <div class="rating">
         <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+            <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+            <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+            <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+            <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+            <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+            <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+          </svg>
+      </div>
+          <div class="flex justify-around">
+            <div class="modal-action">
+              <button class="btn btn-outline btn-error outline-none ">Close</button>
+            </div>
+            <div class="modal-action">
+              <button class="btn btn-error">Buy Now</button>
+            </div>
+          </div>
+        </form>
+      </dialog>
+                     </div>
+      
+      
+                  </div>
+              </div>
+            </div>
+      
+      <!-- card 2 -->
+      <div class="card  bg-white border-2 border-[#1212121a] rounded-lg min-h-[52vh]">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit7.png" alt="Shoes" class="rounded-xl w-30 h-40" />
+          </figure>
+          <div class="card-body items-center text-center">
+              <h2 class="card-title text-dark-01 font-bold text-2xl">12.90$ - 18.85$</h2>
+              <hr class="hr">
+                  <div class="pt-3 space-y-6">
+                  <p class="text-[#121212] text-[16px] opacity-70 font-semibold">Orange</p>
+                  <div class="rating">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                          <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                          <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                          <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                          <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                          <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                          <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                        </svg>
+                  </div>
+                  <!-- modal -->
+                  <div>
+                    <h1 class="text-[#F85559] font-bold text-[18px] cursor-pointer" onclick="my_modal_6.showModal()">Details</h1>
+      <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
+      <form method="dialog" class="modal-box ">
+      <div class="flex flex-col justify-center">
+      <div class="pl-[120px] pb-5"><img class="w-[60%] h-[50%]" src="images/fruit7.png" alt=""></div>
+      <h3 class="font-bold text-[40px]">Orange</h3>
+      <p class="py-4 text-[#12121299] text-[16px]">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+      </div>
+      <div class="rating">
+      <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
           <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
-          <path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
+          <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
           <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
           <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
           <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
           <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
         </svg>
       </div>
-      <div class="card-actions">
-        <h1 class="text-xl font-normal font-semibold mb-8">Details</h1>
+        <div class="flex justify-around">
+          <div class="modal-action">
+            <button class="btn btn-outline btn-error outline-none ">Close</button>
+          </div>
+          <div class="modal-action">
+            <button class="btn btn-error">Buy Now</button>
+          </div>
+        </div>
+      </form>
+      </dialog>
+                   </div>
+      
+              </div>
+          </div>
+        </div>
+      
+        <!-- card 3 -->
+       <div class="card  bg-white border-2 border-[#1212121a] rounded-lg min-h-[52vh]">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit8.png" alt="Shoes" class="rounded-xl w-30 h-40" />
+          </figure>
+          <div class="card-body items-center text-center">
+              <h2 class="card-title text-dark-01 font-bold text-2xl">12.90$ - 18.85$</h2>
+              <hr class="hr">
+              <div class="pt-3 space-y-6">
+                  <p class="text-[#121212] text-[16px] opacity-70 font-semibold">Red Dragon</p>
+                  <div class="rating">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                          <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                          <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                          <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                          <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                          <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                          <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                        </svg>
+                  </div>
+                   <!-- modal -->
+                   <div>
+                    <h1 class="text-[#F85559] font-bold text-[18px] cursor-pointer" onclick="my_modal_8.showModal()">Details</h1>
+      <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
+      <form method="dialog" class="modal-box ">
+      <div class="flex flex-col justify-center">
+      <div class="pl-[120px] pb-5"><img class="w-[60%] h-[50%]" src="images/fruit8.png" alt=""></div>
+      <h3 class="font-bold text-[40px]">Red Dragon</h3>
+      <p class="py-4 text-[#12121299] text-[16px]">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
       </div>
-    </div>
-
-      <div class="card  bg-white border-2 border-[#1212121a] min-h-[48vh] px-6 items-center">
-      <figure class="px-10 pt-10">
-        <img src="./images/fruit2.png" alt="Shoes" class="rounded-xl" />
-      </figure>
-      <div class="card-body items-center text-center">
-        <h2 class="card-title text-xl">12.90$ - 18.85$</h2>
-        <p class="mt-8 font-medium text-base">Oranges</p>
-        
-      </div>
-      <div class="rating mb-12">
-        <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
-<path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
-<path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
-<path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
-<path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
-<path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
-<path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
-</svg>
-      </div>
-      <div class="card-actions">
-        <h1 class="text-xl font-normal font-semibold mb-8">Details</h1>
-      </div>
-    </div>
-    
-      <div class="card  bg-white border-2 border-[#1212121a] min-h-[48vh] px-6 items-center">
-      <figure class="px-10 pt-10">
-        <img src="./images/fruit3.png" alt="Shoes" class="rounded-xl" />
-      </figure>
-      <div class="card-body items-center text-center">
-        <h2 class="card-title text-xl">12.90$ - 18.85$</h2>
-        <p class="mt-8 font-medium text-base">Mangos</p>
-        
-      </div>
-      <div class=" mb-12">
-        <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+      <div class="rating">
+      <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
           <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
-          <path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
+          <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
           <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
           <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
           <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
           <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
         </svg>
       </div>
-      <div class="card-actions">
-        <h1 class="text-xl font-normal font-semibold mb-8">Details</h1>
+        <div class="flex justify-around">
+          <div class="modal-action">
+            <button class="btn btn-outline btn-error outline-none ">Close</button>
+          </div>
+          <div class="modal-action">
+            <button class="btn btn-error">Buy Now</button>
+          </div>
+        </div>
+      </form>
+      </dialog>
+                   </div>
+      
+              </div>
+          </div>
+        </div>
+      
+        <!-- card 4 -->
+      <div class="card  bg-white border-2 border-[#1212121a] rounded-lg min-h-[52vh]">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit5.png" alt="Shoes" class="rounded-xl w-30 h-40" />
+          </figure>
+          <div class="card-body items-center text-center">
+              <h2 class="card-title text-dark-01 font-bold text-2xl">12.90$ - 18.85$</h2>
+              <hr class="hr">
+                  <div class="pt-3 space-y-6">
+                  <p class="text-[#121212] text-[16px] opacity-70 font-semibold">Dalim</p>
+                  <div class="rating">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                          <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                          <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                          <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                          <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                          <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                          <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                        </svg>
+                  </div>
+                   <!-- modal -->
+                   <div>
+                    <h1 class="text-[#F85559] font-bold text-[18px] cursor-pointer" onclick="my_modal_9.showModal()">Details</h1>
+      <dialog id="my_modal_9" class="modal modal-bottom sm:modal-middle">
+      <form method="dialog" class="modal-box ">
+      <div class="flex flex-col justify-center">
+      <div class="pl-[120px] pb-5"><img class="w-[60%] h-[50%]" src="images/fruit5.png" alt=""></div>
+      <h3 class="font-bold text-[40px]">Dalim</h3>
+      <p class="py-4 text-[#12121299] text-[16px]">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
       </div>
-    </div>
-
-      <div class="card  bg-white border-2 border-[#1212121a] min-h-[48vh] px-6 items-center">
-      <figure class="px-10 pt-10">
-        <img src="./images/fruit4.png" alt="Shoes" class="rounded-xl" />
-      </figure>
-      <div class="card-body items-center text-center">
-        <h2 class="card-title text-xl">12.90$ - 18.85$</h2>
-        <p class="mt-8 font-medium text-base">strawberry</p>
-        
-      </div>
-      <div class=" mb-12">
-        <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+      <div class="rating">
+      <svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
           <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
-          <path d="M45.9038 0L50.4527 7.00591L58.5214 9.16716L53.264 15.6584L53.7018 24L45.9038 21.0059V0Z" fill="#FBC0A8"/>
+          <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
           <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
           <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
           <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
           <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
         </svg>
       </div>
-      <div class="card-actions">
-        <h1 class="text-xl font-normal font-semibold mb-8">Details</h1>
+        <div class="flex justify-around">
+          <div class="modal-action">
+            <button class="btn btn-outline btn-error outline-none ">Close</button>
+          </div>
+          <div class="modal-action">
+            <button class="btn btn-error">Buy Now</button>
+          </div>
+        </div>
+      </form>
+      </dialog>
+                   </div>
+      
+              </div>
+          </div>
+        </div>
+      
       </div>
-    </div>
-   
-   
-  
-    </div>
-   </div>
-   
-   <div class="flex justify-center">
-    <button class="btn btn-primary bg-red-600 border-none px-3 py-3 text-white hover:bg-black mt-8 ">Shop Now</button>
-   </div> 
- </section>
 
-</main>
-
-<!-- 2nd middle section -->
+      <div class="mt-12 flex justify-center items-center">
+        <button class="px-8  btn btn-warning text-white border-none rounded-lg bg-[#F85559] hover:bg-black">Shop All</button>
+      </div>
+    </section>
+  </main>
+   
+<!-- 3rd page section -->
 <main>
   <section class="mt-10">
     <div class="hero min-h-screen" style="background-image: url(./images/team.png);">
@@ -315,7 +444,7 @@
                 <img src="images/logo.png" alt="">
             <a class="lg:text-white text-[30px] font-bold py-5 px-4">Fruit Burst</a>
             </div>
-            <div class="grid grid-cols-6 mt-8 ">
+            <div class="grid grid-cols-3 md:grid-cols-6 mt-8 ">
                 <a class="text-sm lg:text-lg text-white font-medium">Home</a> 
                 <a class="text-sm lg:text-lg text-white font-medium">About Us</a> 
                 <a class="text-sm lg:text-lg text-white font-medium">Shops</a> 
